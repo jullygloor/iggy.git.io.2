@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 0%;
+    background-image: url(red1.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 4px;  
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    height: 8%;
+    font-weight: bolder;
+    font-size: 50px;
+    border-style: solid;
+    border-radius: 9px;
+}
+
+.krlh {
+    padding: 20px;
+    color: #ffffff;
+    font-size: 50px;
+    text-decoration: solid;
+    text-align: center; 
+}
+.info-item{
+    font-size: 55px;
+    display: flex;
+    color: #ddd;
+    
+}
+
+.lulu {
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #000000;
+    background-image: url(red5.jpg);
+    height: 100vh;
+    padding: 10px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(129, 48, 48)353;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(197, 0, 0);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 600%;
+    bottom: 0;
+}
+.pqp{
+    color: #ddd;
+    text-shadow: #ddd;
+    font-size: 40px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

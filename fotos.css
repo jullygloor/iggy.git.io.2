@@ -1,0 +1,15 @@
+.catsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(213, 173, 250);
+}
+
+.catsContainer img{
+    background-color: rgb(204, 172, 235);
+    width: 4000px;
+    height: 400px;
+    padding: 99px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
